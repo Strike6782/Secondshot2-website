@@ -1,4 +1,4 @@
-.introduction-block {
+.upper-block {
   padding-top: 200px;
   padding-bottom: 200px;
   padding-left: 20px;
@@ -11,17 +11,17 @@
   z-index: -1;
 }
 
-.introduction-block div {
+.upper-block div {
   position: inherit;
   color: white;
   text-align: center;
   text-shadow: 0 0 10px black;
 }
 
-.introduction-block h1 {
+.upper-block h1 {
   font-size: 36px;
 }
 
-.introduction-block p {
+.upper-block p {
   margin-top: 20px;
 }
