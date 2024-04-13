@@ -1,0 +1,22 @@
+.article-summary{
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.article-summary div{
+  max-width: 700px;
+}
+
+.article-summary h1{
+  margin: 20px;
+}
+
+.article-summary p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

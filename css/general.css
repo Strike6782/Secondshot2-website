@@ -1,0 +1,22 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #afafaf;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+.pbottom{
+    padding-bottom: 15px;
+}
