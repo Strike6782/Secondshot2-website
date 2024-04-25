@@ -1,7 +1,7 @@
 .drieluik{
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin-top: 15px;
   justify-content: space-around;
 }
 .drieluik-onderdeel{
@@ -19,6 +19,10 @@
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+}
+
+.drieluik-onderdeel h1{
+  margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 750px){
@@ -47,7 +51,7 @@
   }
 }
 
-@media only screen and (min-width: 1350px){
+@media only screen and (min-width: 1750px){
   .drieluik-onderdeel{
     flex-direction: row;
   }
@@ -55,13 +59,8 @@
   .drieluik-onderdeel img {
     margin-top: 0px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-right: 20px;
   }
 }
 
-@media only screen and (min-width: 1500px){
-  .drieluik-onderdeel{
-    width: 500px;
-  }
-}
