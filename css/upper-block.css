@@ -29,11 +29,13 @@
 
 .upper-block h1 {
   font-size: 36px;
+  line-height: 1.1;
   
 }
 
 .upper-block p {
   margin-top: 20px;
+  line-height: 1.2;
 
   
 }
