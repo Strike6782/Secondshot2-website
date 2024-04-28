@@ -10,10 +10,21 @@
   padding-right: 25px;
   position: relative; 
 
-  background-image: url("../images/headerfoto_02.jpg");
   background-size: cover;
   background-position: center;
   z-index: -1;
+}
+
+#upperhome{
+  background-image: url("../images/headerfoto_02.jpg");
+}
+
+#upperbedrijf{
+  background-image: url("../images/bedrijven/livestreamscouting.jpg");
+}
+
+#upperevenement{
+  background-image: url("../images/Evenementen/Festifoort_3.jpg");
 }
 
 .upper-block div {

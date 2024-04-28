@@ -87,6 +87,12 @@
     flex: 1;
 }
 
+#logo img{
+    height: 60px;
+    width: auto;
+    margin-left: 20px;
+}
+
 @media only screen and (min-width: 1400px){
     #navigation{
         flex-direction: row;
