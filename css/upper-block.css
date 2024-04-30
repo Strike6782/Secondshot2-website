@@ -27,6 +27,10 @@
   background-image: url("../images/Evenementen/Festifoort_3.jpg");
 }
 
+#upperstudenten{
+  background-image: url("../images/Studenten/headerfoto.jpg");
+}
+
 .upper-block div {
   position: absolute;
   color: white;
