@@ -1,72 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!--Stylesheets-->
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/navigation.css">
-        <link rel="stylesheet" href="css/upper-block.css"> 
-        <link rel="stylesheet" href="css/footer.css"> 
-        <link rel="stylesheet" href="css/drieluik.css"> 
-        <link rel="stylesheet" href="lightbox2/css/lightbox.css"> <!-- Code from https://github.com/lokesh/lightbox2 -->
-        <link rel="stylesheet" href="css/image-gallery.css">
-        <link rel="stylesheet" href="css/tekstbox.css">
-        <link rel="stylesheet" href="css/videobox.css">
-        
+<html lang="nl">
+<head>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/upper-block.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/drieluik.css">
+    <link rel="stylesheet" href="lightbox2/css/lightbox.css">
+    <link rel="stylesheet" href="css/image-gallery.css">
+    <link rel="stylesheet" href="css/tekstbox.css">
+    <link rel="stylesheet" href="css/videobox.css">
 
-        <!--Meta tags-->
-        <meta name="viewport" content="width=device-width, initial-scale=1" >
-        <meta name="keywords" content="Videograaf, Fotograaf, Second Shot Media, eventfotograaf, eventvideograaf, Amersfoort, Zwolle, Utrecht, Amsterdam, Apeldoorn, aftermovie, gala fotografie, studentfotograaf, student">
-        <meta name="description" content="Bij Second Shot Media, gevestigd in Amersfoort, regio Utrecht, kan je terecht voor fotografie en videografie voor alle soorten evenementen. Fotograaf en filmmaker Ivan Balkenende gelooft erin dat elk waardevol moment een tweede kans verdient om te schitteren, en is gespecialiseerd in het vastleggen van events en muziekoptredens. Ik kom langs op uw locatie in Amersfoort, Utrecht, Amsterdam, Apeldoorn, Deventer, Zwolle of nabij gelegen plaatsen.">
-        <meta name="author" content="Ivan Balkenende">
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="fotograaf evenementen Utrecht, videograaf feest Amsterdam, aftermovie maken, eventfotograaf, Second Shot Media">
+    <meta name="description" content="Second Shot Media biedt professionele fotografie en videografie voor evenementen en optredens in Utrecht, Amersfoort, Amsterdam en omstreken. Neem contact op!">
+    <meta name="author" content="Ivan Balkenende">
 
-        <title>Second Shot Media - Fotograaf en Videograaf voor evenementen</title>
-        <link rel="icon" type="image/x-icon" href="images/logo/favicon.png">
-        <meta charset="UTF-8">
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Second Shot Media - Fotograaf en Videograaf">
+    <meta property="og:description" content="Professionele fotografie en videografie voor evenementen, optredens en feesten in Utrecht, Amsterdam en omstreken.">
+    <meta property="og:image" content="images/social-share-image.jpg">
+    <meta property="og:url" content="https://www.secondshotmedia.nl">
+    <meta property="og:type" content="website">
 
-    </head>
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Second Shot Media - Fotograaf en Videograaf">
+    <meta name="twitter:description" content="Professionele foto- en videografie voor jouw evenement. Neem contact op via ivan@secondshotmedia.nl.">
+    <meta name="twitter:image" content="images/social-share-image.jpg">
 
-    <body>
-        <nav id="navigation">
-            <a href="index.html" id="logo">
-                <img src="images/logo/LogoKleinLq.png">
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Second Shot Media",
+        "description": "Professionele foto- en videografie voor evenementen en optredens.",
+        "image": "https://www.secondshotmedia.nl/images/social-share-image.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Amersfoort",
+            "addressRegion": "Utrecht",
+            "postalCode": "3813BT",
+            "addressCountry": "NL"
+        },
+        "url": "https://www.secondshotmedia.nl",
+        "email": "ivan@secondshotmedia.nl",
+        "sameAs": [
+            "https://www.instagram.com/secondshotmedia/",
+            "https://www.linkedin.com/in/ivan-balkenende-ab68a9165/",
+            "https://www.youtube.com/channel/UCZHNhyl6ZOro9b9cHqXhvrw"
+        ]
+    }
+    </script>
+
+    <title>Professionele Fotograaf en Videograaf voor evenementen en optredens - Second Shot Media</title>
+    <link rel="icon" href="images/logo/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <nav id="navigation">
+        <a href="index.html" id="logo">
+            <img src="images/logo/LogoKleinLq.png" alt="Second Shot Media Logo">
+        </a>
+        <ul id="menu">
+            <li><a href="index.html" id="selected">Home</a></li>
+            <li><a href="evenementen.html">Evenementen</a></li>
+            <li><a href="bedrijven.html">Bedrijven</a></li>
+            <li><a href="studenten.html">Studenten</a></li>
+        </ul>
+        <div id="socials">
+            <a href="https://www.instagram.com/secondshotmedia/" target="_blank">
+                <img src="images/icons/instagram.svg" alt="Instagram Icon">
             </a>
-            <ul id="menu">
-                <li><a href="index.html" id="selected">Home</a></li>
-                <li><a href="evenementen.html">Evenementen</a></li>
-                <li><a href="bedrijven.html">Bedrijven</a></li>
-                <li><a href="studenten.html">Studenten</a></li>
-            </ul>
-            <div id="socials">
-                <button class="socials-knoppen">
-                    <a href="https://www.instagram.com/secondshotmedia/" target="_blank">
-                        <img class="instagram-icon" src="images/icons/instagram.svg">
-                    </a>
-                </button>
-                <button class="socials-knoppen">
-                    <a href="https://www.youtube.com/channel/UCZHNhyl6ZOro9b9cHqXhvrw" target="_blank">
-                        <img class="youtube-icon" src="images/icons/youtube.svg">                
-                    </a>
-                </button>
-                <button class="socials-knoppen">
-                    <a href="https://www.linkedin.com/in/ivan-balkenende-ab68a9165/" target="_blank">
-                        <img class="linkedin-icon" src="images/icons/linkedin.svg">
-                    </a>
-                </button>
-                <button class="socials-knoppen">
-                    <a href="mailto:ivan@secondshotmedia.nl" target="_blank">
-                        <img class="email-icon" src="images/icons/email.svg">
-                    </a>
-                </button>
-            </div>
-        </nav>
-
-        
-        <div class="upper-block" id="upperhome">
-            <div>
-                <h1>"Elk waardevol moment verdient een tweede kans om te schitteren"</h1>
-                <p>Hoi! Ik ben Ivan, event foto- en videograaf. Benieuwd wat ik voor jou kan betekenen? Neem contact op via ivan@secondshotmedia.nl</p>
-            </div>
+            <a href="https://www.youtube.com/channel/UCZHNhyl6ZOro9b9cHqXhvrw" target="_blank">
+                <img src="images/icons/youtube.svg" alt="YouTube Icon">
+            </a>
+            <a href="https://www.linkedin.com/in/ivan-balkenende-ab68a9165/" target="_blank">
+                <img src="images/icons/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="mailto:ivan@secondshotmedia.nl" target="_blank">
+                <img src="images/icons/email.svg" alt="Email Icon">
+            </a>
         </div>
+    </nav>
+
+    <div class="upper-block" id="upperhome">
+        <div>
+            <h1>"Elk waardevol moment verdient een tweede kans om te schitteren"</h1>
+            <p>Hoi! Ik ben Ivan, event foto- en videograaf. Benieuwd wat ik voor jou kan betekenen? Neem contact op via ivan@secondshotmedia.nl.</p>
+        </div>
+    </div>
 
         <article>
             <div class="breedte-article">
@@ -93,6 +119,25 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="streep"></div>
+
+                <div class="tekstbox">
+                    <div>
+                        <h1>Waarom kiezen voor Second Shot Media?</h1>
+                        <p>
+                            Met Second Shot Media krijg je meer dan alleen foto's of video's. Ik leg de sfeer en energie van jouw evenement vast, of het nu gaat om een concert, clubavond of een zakelijke bijeenkomst. Ik ben gevestigd in Utrecht en Amersfoort, en ben actief in alle plaatsen die goed bereikbaar hiervandaan zijn, zoals Apeldoorn, Amsterdam, 's Hertogenbosch, Deventer, Hilversum, Almere, en meer! 
+                        </p>
+                        <p>
+                            Mijn specialisatie ligt in aftermovies, live-muziekregistraties en het maken van content die jouw event laat stralen, zowel online als offline. Maar ook voor andere foto- of video- opdrachten ben je bij mij aan het juiste adres; ik ben van vele markten thuis! Neem contact op om te kijken wat ik voor jou kan betekenen. Zo ben ik ook gespecialiseerd in het maken van promotievideo's voor bedrijven, het beheren van social media kanalen, en het maken van muziekvideo's en explainers. Ook loop ik regelmatig rond op verschillende georganiseerde kampen en vakanties om deze te fotograferen of een aftermovie van te maken als videograaf. Vanwege de AVG kan ik die foto's hier niet delen, neem contact op via ivan@secondshotmedia.nl om mijn portfolio daarvan te bekijken.
+                        </p>
+                        <p>
+                            Volg mij op Instagram via <a href="https://www.instagram.com/secondshotmedia/" target="_blank">@secondshotmedia</a> om op de hoogte te blijven! Hier post ik regelmatig updates over mijn werk en nieuwe projecten.
+                        </p>
+                    </div>
+                    <img src="/images/phl-pf-3.jpg" alt="Ivan Balkenende - Fotograaf en Videograaf">
+                </div>
+            
 
                 <div class="streep"></div>
 
@@ -157,7 +202,7 @@
                             Ik ben ooit begonnen met videografie halverwege de middelbare school, waar ik toen een filmploeg heb opgericht waarmee we de grote shows in onze school opnamen. Over de jaren heen werd dit steeds uitgebreider en professioneler en heb ik mijn skillset steeds breder uit kunnen breiden. Ik wilde verder hiermee, dus heb ik Second Shot Media gestart.
                         </p>
                         <p>
-                            Inmiddels zit ik in verschillende marketing- en mediateams van evenementen, variërend van 200 tot 50.000 bezoekers, en ben ik als freelancer in te huren voor het fotograferen van uw event, en het maken van aftermovies, uitlegvideo’s, en social media content.
+                            Inmiddels zit ik in verschillende marketing- en mediateams van evenementen, variërend van 200 tot 50.000 bezoekers, en ben ik als freelancer in te huren. Dit doe ik allemaal naast mijn studie aan de Universiteit Utrecht, waar ik als student de backelor Informatica volg.
                         </p>                    
                     </div>
                     <img src="/images/foto_tuin.JPG">
@@ -262,18 +307,19 @@
     
         <footer>
             <div class="footer-flex">
-            <p>Email: ivan@secondshotmedia.nl</p>
-            <p>KVK nr: 92016421</p>
-            <p>Instagram: @secondshotmedia</p>
-            <a href="algemenevoorwaarden.html">Algemene Voorwaarden</a>
+                <p>Email: <a href="mailto:ivan@secondshotmedia.nl">ivan@secondshotmedia.nl</a></p>
+                <p>KVK nr: 92016421</p>
+                <p>Instagram: <a href="https://www.instagram.com/secondshotmedia/" target="_blank">@secondshotmedia</a></p>
+                <a href="algemenevoorwaarden.html">Algemene Voorwaarden</a>
             </div>
-        </footer> 
-        <script src="lightbox2/js/lightbox-plus-jquery.js"></script> <!-- Code from https://github.com/lokesh/lightbox2 -->
+        </footer>
+    
+        <script src="lightbox2/js/lightbox-plus-jquery.js"></script>
         <script>
             lightbox.option({
                 'alwaysShowNavOnTouchDevices': true,
                 'disableScrolling': true
-            })
+            });
         </script>
     </body>
-</html>
+    </html>
